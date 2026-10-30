@@ -39,7 +39,7 @@
 | **AI Document Intelligence** *(private repo, code available on request)* | Department-scoped document ingestion, OCR, pgvector hybrid search (RRF) and grounded Q&A with citations and abstention | Django · DRF · Celery · Redis · PostgreSQL + pgvector · React · Docker · nginx | [Live (Azure)](https://adi-docs.koreacentral.cloudapp.azure.com/) |
 | [**Real-Time Bus Tracking**](https://github.com/karrisubhash/bus_tracker) | Multi-role platform: JWT auth, live GPS over Django Channels WebSockets, React Native driver app | Django · DRF · Channels · Redis · PostgreSQL · React Native | [App](https://college-bus-tracking-system-ri73.onrender.com) · [Demo video](https://youtu.be/i2Xq8YOuVXY) |
 | [**Inspection Dataset Portal**](https://github.com/karrisubhash/Aptransco-Data_Portal) | Upload → dedupe → review → export pipeline for ML training data | Django · PostgreSQL · Bootstrap · openpyxl | [dataportal.aptransco.co.in](https://dataportal.aptransco.co.in/) *(APTRANSCO, sign-in)* |
-| [**Manufacturing Process Lab**](https://github.com/karrisubhash/Manufacturing-Process-Lab) | Lab-experiment calculator: step-by-step calculations, auto-plotted graphs, emailed results | Django · NumPy · Matplotlib | — |
+| [**Manufacturing Process Lab**](https://github.com/karrisubhash/Manufacturing-Process-Lab) | Lab-experiment calculator: step-by-step calculations, auto-plotted graphs, emailed results | Django · NumPy · Matplotlib | [mpvirtuallab.pythonanywhere.com](https://mpvirtuallab.pythonanywhere.com/) |
 
 ## Tech stack
 
