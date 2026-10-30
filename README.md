@@ -25,8 +25,8 @@
 
 | What | Details |
 |---|---|
-| **AI drone inspection platform** | Django + DRF + PostgreSQL backend with a YOLO inference pipeline that detects transmission-line defects (rust, loose and missing bolts) in drone imagery. I trained the custom YOLO models, which reached **92% mAP**. The platform runs in production at APTRANSCO. |
-| **Inference pipeline** | Moved inference into modular DRF pipelines, which cut end-to-end processing latency by **~40%**. |
+| **AI drone inspection platform** | Django + DRF + PostgreSQL backend with a YOLO inference pipeline that detects transmission-line defects (rust, loose and missing bolts) in drone imagery. I trained the custom YOLO models. The platform runs in production at APTRANSCO. |
+| **Inference pipeline** | Moved inference into modular DRF pipelines that serve detections behind REST endpoints. |
 | **Line-inspection field app** | Offline-first Flutter app with a Django REST backend for line engineers: an outbox and sync engine, offline sign-in, GPS tower maps, defect-criticality scoring, and Excel/PDF export. |
 | **Inspection dataset portal** | Django portal that collects, deduplicates (SHA-256), reviews and exports drone and field images as training datasets. |
 
@@ -38,7 +38,7 @@
 | [**EasyApply**](https://github.com/karrisubhash/easyapply) | AI job-application assistant: resume parsing, explainable job matching, LLM resume tailoring, Chrome extension autofill | FastAPI · SQLAlchemy · Alembic · PostgreSQL · Next.js · TypeScript · Docker | [Staging](https://easyapply-staging.onrender.com) |
 | [**AI Document Intelligence**](https://github.com/karrisubhash/ai-document-intelligence) | Department-scoped document ingestion, OCR, pgvector hybrid search (RRF) and grounded Q&A with citations and abstention | Django · DRF · Celery · Redis · PostgreSQL + pgvector · React · Docker · nginx | [Live (Azure)](https://adi-docs.koreacentral.cloudapp.azure.com/) |
 | [**Real-Time Bus Tracking**](https://github.com/karrisubhash/bus_tracker) | Multi-role platform: JWT auth, live GPS over Django Channels WebSockets, React Native driver app | Django · DRF · Channels · Redis · PostgreSQL · React Native | [App](https://college-bus-tracking-system-ri73.onrender.com) · [Demo video](https://youtu.be/i2Xq8YOuVXY) |
-| **Inspection Dataset Portal** *(APTRANSCO, code private)* | Upload → dedupe → review → export pipeline for ML training data | Django · PostgreSQL · Bootstrap · openpyxl | [dataportal.aptransco.co.in](https://dataportal.aptransco.co.in/) *(APTRANSCO, sign-in)* |
+| [**Inspection Dataset Portal**](https://github.com/karrisubhash/Aptransco-Data_Portal) | Upload → dedupe → review → export pipeline for ML training data | Django · PostgreSQL · Bootstrap · openpyxl | [dataportal.aptransco.co.in](https://dataportal.aptransco.co.in/) *(APTRANSCO, sign-in)* |
 | [**Manufacturing Process Lab**](https://github.com/karrisubhash/Manufacturing-Process-Lab) | Lab-experiment calculator: step-by-step calculations, auto-plotted graphs, emailed results | Django · NumPy · Matplotlib | [mpvirtuallab.pythonanywhere.com](https://mpvirtuallab.pythonanywhere.com/) |
 
 ## Tech stack
